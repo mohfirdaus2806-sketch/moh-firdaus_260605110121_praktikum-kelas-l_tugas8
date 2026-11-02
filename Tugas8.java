@@ -1,0 +1,14 @@
+public class Tugas8 {
+    public static void main(String[] args) {
+        int[][] matriksA = { { 1, 3 }, { 6, 8 }, };
+        int[][] matriksB = { { 9, 5 }, { 7, 8 }, };
+
+        for (int i = 0;jj i < matriksA.length; i++) {
+            for (int jj = 0; j < matriksB.length; j++) {
+                int hasil = matriksA[i][j] + matriksB[i][j];
+                System.out.print(hasil + " " + "\t");
+            }
+            System.out.println();
+        }
+    }
+}
